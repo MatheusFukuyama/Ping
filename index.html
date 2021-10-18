@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <script src="https://kit.fontawesome.com/863b618dc0.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/css.css  ">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="./images/logo.svg" alt="logo" />
+    <h1>We are launching <span>soon!</span></h1>
+  
+    <p>Subscribe and get notified</p>
+    
+    <form action="#">
+        <div class="row cl-3">
+            <input class="inpt" type="text" placeholder="Your email adress..." name="email" >
+        </div>
+        <div class='row cl-1'>
+            <input class="inpt" type="submit" value = "Notify Me" onclick="verifyEmail(event)">
+        </div>
+    </form>
+    <img class="illustration" src="./images/illustration-dashboard.png" alt="Dashboard illustration">
+    <div class="icons">
+      <a href="#" class="circle-icon">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <span></span>
+      <a href="#" class="circle-icon">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <span></span>
+      <a href="#" class="circle-icon">
+        <i class="fab fa-instagram"></i> 
+      </a>
+    </div>
+    <p>&copy; Copyright Ping. All rights reserved.</p>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
