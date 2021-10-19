@@ -75,13 +75,14 @@ form {
     padding: 10px 20px;
     border-radius: 25px;
     border: 1px solid var(--secundary-blue);
+    outline: none;
 }
 
 input[type="submit"] {
     background-color: var(--primary);
     color: #fff;
     border: 1px solid var(--primary);
-    box-shadow: 0 5px 10px 1px var(--secundary-blue)
+    box-shadow: 0 5px 10px 1px var(--secundary-blue);
 }
 
 input[type="submit"]:hover {
@@ -100,6 +101,10 @@ input[type="submit"] {
 
 .cl-1 {
     flex-grow: 1;
+}
+
+.error {
+    border: 1px solid var(--secundary-red);
 }
 
 ::-webkit-input-placeholder { /* Edge */
