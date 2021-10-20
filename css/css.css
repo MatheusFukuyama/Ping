@@ -107,6 +107,16 @@ input[type="submit"] {
     border: 1px solid var(--secundary-red);
 }
 
+.message {
+    font-size: 11px;
+    color: var(--secundary-red);
+    font-style: italic;
+}
+
+.error-space {
+    padding: 0 20px;
+}
+
 ::-webkit-input-placeholder { /* Edge */
     color: var(--secundary-blue);
   }
@@ -187,6 +197,10 @@ main p:last-child {
 
     .inpt {
         font-size: 12.5 px;
+    }
+
+    .space-btn-error {
+        margin-bottom: 10px;
     }
 
     .cl-3,
