@@ -17,6 +17,7 @@ html {
     display: flex;
     justify-content: center;
     font-family: 'Libre Franklin', sans-serif;
+    font-size: 62.5%;
 }
 
 body {
@@ -26,6 +27,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.6rem;
 }
 
 main {
@@ -43,6 +45,7 @@ h1 {
     margin-top: 25px;
     margin-bottom: 20px;
     font-weight: 300;
+    font-size: 3.2rem;
     color: var(--neutral-gray);
 }
 
@@ -108,7 +111,7 @@ input[type="submit"] {
 }
 
 .message {
-    font-size: 11px;
+    font-size: 1.1rem;
     color: var(--secundary-red);
     font-style: italic;
 }
@@ -143,7 +146,7 @@ input[type="submit"] {
 }
 
 .fab {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: var(--primary);
 }
 
@@ -171,7 +174,7 @@ input[type="submit"] {
 }
 
 main p:last-child {
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 395px) {
@@ -181,11 +184,11 @@ main p:last-child {
     }
 
     h1 {
-        font-size: 21px;
+        font-size: 2.1rem;
     }
 
     p:first-of-type {
-        font-size: 12.5px;
+        font-size: 1.25rem;
     }
 }
 
@@ -196,7 +199,7 @@ main p:last-child {
     }
 
     .inpt {
-        font-size: 12.5 px;
+        font-size: 1.25rem;
     }
 
     .space-btn-error {
