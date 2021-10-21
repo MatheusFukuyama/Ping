@@ -178,6 +178,10 @@ main p:last-child {
 }
 
 @media screen and (max-width: 395px) {
+    form {
+        flex-direction: column;
+        width: 90%;
+    }
 
     .logo {
         height: 15px;
@@ -193,11 +197,6 @@ main p:last-child {
 }
 
 @media screen and (max-width: 376px) {
-    form {
-        flex-direction: column;
-        width: 90%;
-    }
-
     .inpt {
         font-size: 1.25rem;
     }
