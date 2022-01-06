@@ -27,7 +27,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    padding: 10rem 2rem;
 }
 
 main {
@@ -38,14 +39,14 @@ main {
 }
 
 .logo {
-    height: 20px;
+    height: 25px;
 }
 
 h1 {
     margin-top: 25px;
     margin-bottom: 20px;
     font-weight: 300;
-    font-size: 3.2rem;
+    font-size: 4.8rem;
     color: var(--neutral-gray);
 }
 
@@ -66,7 +67,7 @@ form {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
     margin-bottom: 50px;
     margin-top: 20px;
@@ -75,13 +76,15 @@ form {
 .inpt {
     box-sizing: border-box;
     width: 100%;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 25px;
     border: 1px solid var(--secundary-blue);
     outline: none;
 }
 
 input[type="submit"] {
+    font-size: 1.6rem;
+    padding: 14px 20px ;
     background-color: var(--primary);
     color: #fff;
     border: 1px solid var(--primary);
@@ -93,12 +96,9 @@ input[type="submit"]:hover {
     border: 1px solid hsla(223, 87%, 63%, 0.7);
 }
 
-input[type="submit"] {
-    background-color: var(--primary);
-    color: #fff;
-}
 
 .cl-3 {
+    position: relative;
     flex-grow: 3;
 }
 
@@ -117,6 +117,7 @@ input[type="submit"] {
 }
 
 .error-space {
+    position: absolute;
     padding: 0 20px;
 }
 
@@ -135,7 +136,7 @@ input[type="submit"] {
 
 .illustration {
     width: 100%;
-    max-width: 450px;
+    max-width: 64.5rem;
 }
 
 
@@ -146,13 +147,13 @@ input[type="submit"] {
 }
 
 .fab {
-    font-size: 1.2rem;
+    font-size: 1.75rem;
     color: var(--primary);
 }
 
 .circle-icon {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +178,7 @@ main p:last-child {
     font-size: 1rem;
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 580px) {
     form {
         flex-direction: column;
         width: 90%;
@@ -196,7 +197,7 @@ main p:last-child {
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 580px) {
     .inpt {
         font-size: 1.25rem;
     }
